@@ -1,0 +1,8 @@
+<!--components/modal/index.wxml-->
+<view class="modal" wx:if="{{show}}">
+<view class="modal-main" style="width:{{width}}rpx">
+<image class="modal-content" src="{{src}}" mode="widthFix">
+</image>
+<view class="modal-close icon font_family icon-guanbi" catchtap='onHide'></view>
+</view>
+</view>

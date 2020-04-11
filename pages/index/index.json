@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "kc-button":"../../components/kefuBtn"
+  },
+  "navigationBarTitleText": "首页"
+}

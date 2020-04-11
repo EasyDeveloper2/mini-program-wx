@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/aboutMe/index",
+        "pages/web/index"
+      ]
+    },
+    {
+      "root": "packageB",
+      "pages": []
+    },
+    {
+      "root": "packageC",
+      "pages": []
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": []
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cbcbcb",
+    "selectedColor": "#F61B6D",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/assets/images/home.png",
+        "selectedIconPath": "/assets/images/home_press.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/assets/images/me.png",
+        "selectedIconPath": "/assets/images/me_press.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "kc-kefu-btn": "/components/kefuBtn/index"
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wx6106b6dfe9370a7c",
+    "wx5e3a51fbb515c984"
+  ],
+  "plugins": {
+    "goodsSharePlugin": {
+      "version": "3.2.1",
+      "provider": "wx56c8f077de74b07c"
+    }
+  }
+}

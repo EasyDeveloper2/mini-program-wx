@@ -1,0 +1,5 @@
+<!--components/backTop/index.wxml-->
+<view class="concat-btn concat-btn__top" bindtap='onScrollTop'>
+  <view class="concat-btn__image2 iconfont iconzhiding" style='font-size:27rpx;'></view>
+  <view class="concat-btn__title">顶部</view>
+</view>

@@ -1,0 +1,2 @@
+<!--components/backhome/index.wxml-->
+<image class="back-home" src="https://kshop-pro-data.oss-cn-hangzhou.aliyuncs.com/kmh/back_home.png" bindtap="onBackhome" mode="widthFix"></image>

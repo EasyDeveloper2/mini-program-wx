@@ -1,0 +1,5 @@
+<!--components/placeholderImage/index.wxml-->
+<view class="placeholder">
+   <icon class="placeholder__image  icon font_family {{imageClassName}}"></icon>
+   <view class="placeholder__title">{{title}}</view>
+</view>

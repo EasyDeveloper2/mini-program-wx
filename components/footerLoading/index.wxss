@@ -1,0 +1,27 @@
+/* components/footerLoading/index.wxss */
+.footer{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__icon{
+  width: 30rpx;
+  height: 30rpx;
+  animation: infinite 2s rotate linear;
+}
+.footer__text{
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotateZ(0);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}

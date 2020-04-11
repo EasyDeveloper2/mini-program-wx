@@ -1,0 +1,51 @@
+/* components/backTop/index.wxss */
+/* @import "../../app.wxss"; */
+
+.concat-btn {
+  position: fixed;
+  width: 88rpx;
+  height: 88rpx;
+  background: rgba(255, 255, 255, 0.7);
+  bottom: 248rpx;
+  border-radius: 44rpx;
+  right: 32rpx;
+  color: #f61b6d;
+  padding: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(232, 232, 232, 1);
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.concat-btn__top {
+  bottom: 140rpx;
+  color: #333;
+}
+
+.concat-btn__image {
+  font-size: 35rpx;
+  height: 35rpx;
+}
+
+.concat-btn__image2 {
+  font-size: 27rpx;
+  height: 27rpx;
+}
+
+.concat-btn__title {
+  font-size: 20rpx;
+  color: #333;
+  height: 28rpx;
+  line-height: 28rpx;
+}
+
+.concat-btn__button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+

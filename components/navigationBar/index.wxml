@@ -1,0 +1,12 @@
+<!--components/navigationBar/index.wxml-->
+
+<view class="navigation-bar" style="background:{{backgroundColor}};height: {{44 + safeTop}}px">
+  <view class="navigation-bar__title" style="color:{{color}};top:{{safeTop}}px">{{title}}</view>
+  <view class="navigation-bar__left" wx:if="{{showBack||showHome}}" style="margin-top:{{safeTop}}px;background-color:{{color=='white'?'rgba(0,0,0,0.2)':'rgba(255,255,255,0.5)'}};">
+      <view wx:if="{{showBack}}" class="navigation-bar__back iconfont iconfanhui-" bindtap="onTapBack" style="color:{{color}};"></view>
+      <view wx:if="{{showHome}}" class="navigation-bar__home iconfont iconzhaoshangxiaochengxu-shouye" bindtap="onTapHome" style="color:{{color}};"></view>
+  </view>
+</view>
+<view wx:if="{{border}}" class="navigation-bar-bg" style="background:{{backgroundColor}};height: {{44 + safeTop}}px"></view>
+
+

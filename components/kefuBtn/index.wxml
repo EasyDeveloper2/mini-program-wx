@@ -1,0 +1,6 @@
+<!--components/kefuBtn/index.wxml-->
+<view class="concat-btn">
+  <view class="concat-btn__image iconfont iconkefu"></view>
+  <view class="concat-btn__title">客服</view>
+  <button class="concat-btn__button" plain style="border:none" open-type='contact'></button>
+</view>

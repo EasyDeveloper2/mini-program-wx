@@ -1,0 +1,15 @@
+<!--components/bannerList/index.wxml-->
+
+ <view class="banner-list">
+ <swiper class="banner-list__swiper" bindchange='onSwiperChange'>
+  <swiper-item wx:for="{{list}}" wx:key="{{index}}">
+    <image class="banner-list__item" src="{{item.bannerUrl}}?x-oss-process=style/homeBanner" bindtap='onTapBannerList' data-item='{{item}}' lazy-load></image>
+  </swiper-item>
+ </swiper>
+ <view class="banner-list__dot__list">
+ <block wx:for="{{list}}" wx:key="{{index}}">
+    <view class="banner-list__dot__list__item {{index==bannerIndex?'banner-list__dot__list__item--active':''}}"></view>
+ </block>
+ </view>
+</view>
+

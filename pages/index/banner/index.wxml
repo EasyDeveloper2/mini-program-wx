@@ -1,0 +1,8 @@
+<template name="banner">
+ <swiper class="banner" indicator-dots="true">
+  <swiper-item wx:for="{{bannerList}}" wx:key="index">
+    <image class="banner-img" src="{{item}}" catchtap="onTapImage" data-index="{{index}}"></image>
+  </swiper-item>
+ </swiper>
+</template>
+

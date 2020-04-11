@@ -1,0 +1,7 @@
+/* components/backhome/index.wxss */
+.back-home{
+  position: fixed;
+  bottom: 150rpx;
+  right: 32rpx;
+  width: 90rpx;
+}

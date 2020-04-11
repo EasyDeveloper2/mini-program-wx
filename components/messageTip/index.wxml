@@ -1,0 +1,7 @@
+  <view class="main animated slideInLeft" bindtap="onTapBannerList" data-item="{{msgList[0]}}">
+    <block>
+      <image src="{{msgList[0].src}}" class="userImg"></image>
+      <text class="msg">{{msgList[0].text}}</text>
+      <text class="icon iconfont iconyoujiantou"></text>
+    </block>
+  </view>

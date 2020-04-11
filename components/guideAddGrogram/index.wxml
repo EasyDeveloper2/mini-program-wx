@@ -1,0 +1,6 @@
+<!--components/guideAddGrogram/index.wxml-->
+<kc-form bindtap='onHide'>
+ <view class="guide-add-grogram">
+ <view class="guide-add__text"><text class="guide-add__text--red">点此</text>【添加到我的小程序】<text class="guide-add__text--red">x</text></view>
+ </view>
+</kc-form>

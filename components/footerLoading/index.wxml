@@ -1,0 +1,6 @@
+<!--components/footerLoading/index.wxml-->
+<view class="footer">
+<image wx:if="{{!noMore}}"class="footer__icon" src="../../common/images/loading.png"></image>
+<view class="footer__text">{{noMore?'~我是有底线的~':'加载中...'}}</view>
+
+</view>

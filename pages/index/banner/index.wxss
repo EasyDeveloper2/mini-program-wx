@@ -1,0 +1,9 @@
+.banner{
+  width: 100vw;
+  height: 330rpx;
+  background: rgb(235,235,235);
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+}
